@@ -1,0 +1,38 @@
+footer{
+	display:flex;
+	height:50px;
+	background-color:white;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	a{
+		display: block;
+		flex: 1;
+		width: 80px;
+		height: 50px;
+		text-decoration: none;
+	}
+	i{
+		margin-top: 8px;
+		display: block;
+		text-align: center;
+		color: #aaa;
+	}
+	span{
+		margin-top: 5px;
+		display: block;
+		text-align: center;
+		color: #aaa;
+	}
+	.active{
+		i{
+			color:#0e90d2;
+		}
+		span{
+			color:#0e90d2;
+		}
+		
+	}
+}

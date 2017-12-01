@@ -1,0 +1,70 @@
+.list{
+	width:100%;
+	height:100%;
+	.listHeader{
+		height: 50px;
+		width: 100%;
+		box-shadow:0 0 1px #333;
+		span{
+			margin-left:15px;
+			line-height: 50px;
+			font-size: 16px;
+			color: #333;
+		}
+		input{
+			margin-left: 30px;
+			height: 20px;
+			width: 50%;
+			border:1px solid #333;
+			visibility: middle;
+		}
+		i{
+			margin-left: 10px;
+			line-height: 50px;
+		}
+	}
+	.page{
+		width: 100%;
+		height: 30px;
+		display: flex;
+		position: fixed;
+		bottom: 50px;
+		left: 0;
+		right: 0;
+		margin:auto;
+		li{
+			height: 30px;
+			line-height: 30px;
+			list-style: none;
+			flex: 1;
+			text-align:center;
+			background-color: lightblue;
+			color: white;
+			a{
+				text-decoration: none;
+				color:white;
+			}
+		}
+	}
+	.four{
+		width: 100%;
+		height: 536px;
+		a{
+			display: block;
+			width: 50%;
+			height: 50%;
+			float: left;
+			text-decoration:none;
+			text-align: center;
+			img{
+				display: block;
+				width: 90%;
+				height: 200px;
+				margin: 0 auto;
+			}
+		}
+	}
+
+
+
+}
